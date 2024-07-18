@@ -10,18 +10,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title:
-    'Pandem - Information you need during on-call emergencies',
+    'Safe Foods - Order faster',
   description:
-    'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+    'Track and gain insight on what foods you and your family can eat to make ordering in a smoother experience!',
   openGraph: {
     images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
     title:
-      'Pandem - Information you need during on-call emergencies',
+      'Safe Foods - Order faster',
     description:
-      'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+      'Track and gain insight on what foods you and your family can eat to make ordering in a smoother experience!',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }

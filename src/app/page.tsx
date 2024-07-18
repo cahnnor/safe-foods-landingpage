@@ -13,12 +13,10 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+          Effortless ordering for every dietary need
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          Quickly track foods you&apos;ve ordered and filter them by your dietary needs. Gain insight into what works for you and your family.
         </Typography>
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
@@ -31,60 +29,58 @@ export default function Home() {
         <Image
           width={1024}
           height={632}
-          alt="Pandem.dev hero image"
-          src="/hero1.png"
+          alt="Safe Foods hero image"
+          src="/hero2.png"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Quick solutions, less stress
+            Quick orders, less stress
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+              headline="Choose restaurants fast"
+              description="Go straight to a list of restaurants that has food which meets your or your group's dietary needs."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
+              headline="Link to any delivery app"
+              description="Set up links for your preferred delivery method and order seamlessly."
             />
             <Feature
               icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
+              headline="For yourself, or the family"
+              description="Track which foods you prefer and which needs they satisfy to filter later. Track as many people as you want."
             />
           </div>
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+            With you, wherever you go
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+            Make and record your orders on any device, any time.
           </Typography>
           <Image
             width={1024}
             height={632}
-            alt="Pandem.dev hero image"
-            src="/hero1.png"
+            alt="Safe Foods hero image"
+            src="/hero2.png"
           />
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Get in touch
+            Feedback
           </Typography>
-          <div>Book a demo, or hop on a call</div>
+          <div>Anything you want to let us know?</div>
           <Link
             href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
-              {`Book now`}
+              {`Contact Us`}
             </Button>
           </Link>
         </div>
