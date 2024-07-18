@@ -70,7 +70,7 @@ export default function Home() {
             width={1024}
             height={632}
             alt="Safe Foods hero image"
-            src="/hero2.png"
+            src="/use-anywhere.jpg"
           />
         </div>
         <div className="flex flex-col gap-6 items-center">

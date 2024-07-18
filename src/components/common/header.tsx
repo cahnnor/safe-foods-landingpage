@@ -20,15 +20,11 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-      href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Book a demo',
-      openInNewTab: true
+     href: '/#pricing',
+     title: 'Pricing',
+     openInNewTab: false
     }
-    // { href: '#pricing', title: 'Features' },
-    // {
-    //   href: 'mailto:myemail@.com',
-    //   title: 'Contact Us'
-    // }
+     
   ]
 
   const getLogo = () => (
