@@ -9,8 +9,7 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'Safe Foods - Order faster',
+  title: 'Safe Foods - Order faster',
   description:
     'Track and gain insight on what foods you and your family can eat to make ordering in a smoother experience!',
   openGraph: {
@@ -18,8 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      'Safe Foods - Order faster',
+    title: 'Safe Foods - Order faster',
     description:
       'Track and gain insight on what foods you and your family can eat to make ordering in a smoother experience!',
     images: ['https://i.imgur.com/MPMcyPP.png']

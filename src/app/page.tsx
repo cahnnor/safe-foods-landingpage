@@ -16,7 +16,9 @@ export default function Home() {
           Effortless ordering for every dietary need
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly track foods you&apos;ve ordered and filter them by your dietary needs. Gain insight into what works for you and your family.
+          Quickly track foods you&apos;ve ordered and filter
+          them by your dietary needs. Gain insight into what
+          works for you and your family.
         </Typography>
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
@@ -61,7 +63,8 @@ export default function Home() {
             With you, wherever you go
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Make and record your orders on any device, any time.
+            Make and record your orders on any device, any
+            time.
           </Typography>
           <Image
             width={1024}
