@@ -20,11 +20,10 @@ export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
-     href: '/#pricing',
-     title: 'Pricing',
-     openInNewTab: false
+      href: '/#pricing',
+      title: 'Pricing',
+      openInNewTab: false
     }
-     
   ]
 
   const getLogo = () => (
